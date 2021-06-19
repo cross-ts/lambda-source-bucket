@@ -1,0 +1,16 @@
+Parameters:
+  BucketName:
+    Type: String
+    Default: example
+
+Resources:
+  ServerlessSourceBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+
+Outputs:
+  ServerlessSourceBucketName:
+    Value: !Ref ServerlessSourceBucket
+    Export:
+      Name: ServerlessSourceBucketName
