@@ -1,5 +1,6 @@
-# lambda-source-bucket
-Lambdaのソースを管理するためのS3バケットを作るやつ
+# serverless-source-bucket
+サーバレス関係のソースを管理するためのS3バケットを作るやつ  
+e.g.) Lambdaのコード, cloudformation packageで作成するtemplate.yml
 
 ## Initialize
 ```
